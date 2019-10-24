@@ -108,7 +108,7 @@ class LinearList<D> implements List_Interface<D> {
             }
 
             if (pos < 0 || pos > counter) {
-                throw new IndexOutOfBoundsException("");
+                throw new IndexOutOfBoundsException("errro occured");
             }
             else {
                 iter = head;
